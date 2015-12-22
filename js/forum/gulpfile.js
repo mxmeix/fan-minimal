@@ -15,7 +15,7 @@ gulp.task('ts', function () {
 // flarum depends on ts, the node_modules/flarum-gulp/index.js is changed accordingly
 flarum({
   modules: {
-    'fan/vote': [
+    'fan/minimal': [
 //      'built/local/**/*.js'
       'src/**/*.js'
     ]
